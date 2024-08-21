@@ -4,16 +4,19 @@ import streamlit as st
 st.markdown("""
     <style>
         .header {
-            margin-bottom: 5px; /* Reducir margen inferior del encabezado */
+            margin-bottom: 0px; /* Reducir margen inferior del encabezado */
         }
         .content {
-            margin-top: -20px; /* Ajustar margen superior del contenido */
+            margin-top: 0px; /* Ajustar margen superior del contenido */
         }
         .block-container {
-            padding-top: 10px; /* Ajustar margen superior de la página */
-            padding-left: 20px; /* Ajustar margen izquierdo */
-            padding-right: 20px; /* Ajustar margen derecho */
-            padding-bottom: 10px; /* Ajustar margen inferior */
+            padding-top: 0px; /* Ajustar margen superior de la página */
+            padding-left: 0px; /* Ajustar margen izquierdo */
+            padding-right: 0px; /* Ajustar margen derecho */
+            padding-bottom: 0px; /* Ajustar margen inferior */
+        }
+        .text-small {
+            font-size: 0.9em; /* Hacer el texto un poco más pequeño */
         }
     </style>
 """, unsafe_allow_html=True)
@@ -23,8 +26,8 @@ st.title("María Fernanda Buck Nuñez")
 
 # Resumen profesional
 st.markdown("""
-<h2 style='margin-bottom: 5px;'>Resumen Profesional</h2>
-<p style='margin-top: -20px;'>
+<h2 class='text-small'>Resumen Profesional</h2>
+<p class='text-small'>
 Actualmente, me encuentro en el octavo semestre de la carrera de Administración y Finanzas en la Universidad Panamericana, campus Guadalajara. Soy una persona altamente organizada y proactiva, siempre comprometida a dar lo mejor de mí en todas mis actividades. Disfruto trabajar en equipo y considero que la colaboración es clave para alcanzar metas exitosas. Estoy en búsqueda de desafíos profesionales que me permitan crecer y superarme.
 </p>
 """, unsafe_allow_html=True)
@@ -35,8 +38,8 @@ col1, col2 = st.columns(2)
 with col1:
     # Información personal
     st.markdown("""
-     <h2 style='margin-bottom: 5px;'>Información Personal</h2>
-    <div style='margin-top: -20px;'>
+     <h2 class='text-small'>Información Personal</h2>
+    <div class='text-small'>
     <ul>
         <li>fernandabuckn@outlook.com</li>
         <li>477 648 7258</li>
@@ -46,8 +49,8 @@ with col1:
 
     # Educación
     st.markdown("""
-    <h2 style='margin-bottom: 5px;'>Educación</h2>
-    <div style='margin-top: -20px;'>
+    <h2 class='text-small'>Educación</h2>
+    <div class='text-small'>
     <p><strong>Licenciatura en Administración y Finanzas</strong><br/>
     Universidad Panamericana, Zapopan, Jal.<br/>
     Agosto 2020 - Diciembre 2024</p>
@@ -64,8 +67,8 @@ with col1:
 
     # Idiomas
     st.markdown("""
-    <h2 style='margin-bottom: 5px;'>Idiomas</h2>
-    <div style='margin-top: -20px;'>
+    <h2 class='text-small'>Idiomas</h2>
+    <div class='text-small'>
     <ul>
         <li>Español - Nativo</li>
         <li>Inglés - Avanzado</li>
@@ -73,16 +76,30 @@ with col1:
     </div>
     """, unsafe_allow_html=True)
 
+    # Habilidades
+    st.markdown("""
+    <h2 class='text-small'>Habilidades</h2>
+    <div class='text-small'>
+    <ul>
+        <li>Toma de decisiones</li>
+        <li>Trabajo en equipo</li>
+        <li>Solución de problemas</li>
+        <li>Liderazgo</li>
+        <li>Excel</li>
+    </ul>
+    </div>
+    """, unsafe_allow_html=True)
+
 with col2:
     # Experiencia profesional
     st.markdown("""
-    <h2 style='margin-bottom: 5px;'>Experiencia Profesional</h2>
-    <div style='margin-top: -20px;'>
+    <h2 class='text-small'>Experiencia Profesional</h2>
+    <div class='text-small'>
     <h3>Pasante en Contabilidad y Administración</h3>
     <p><strong>[Wilson Abogados S.C]</strong> / Abril 2021 - Agosto 2022</p>
     <ul>
         <li>Apoyo en registro contable y administrativo de operaciones propias del despacho y de clientes externos.</li>
-        <li>Apoyo en el desarrollo de modelos de análisis propios y para clientes.</li>
+        <li>Apoyo en el desarrollo de modelos de análisis propios y para clientes.</li>
         <li>Contabilidad y Finanzas.</li>
     </ul>
 
@@ -102,6 +119,7 @@ with col2:
     </ul>
     </div>
     """, unsafe_allow_html=True)
+
 
 
 
