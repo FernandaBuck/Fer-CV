@@ -74,25 +74,31 @@ with col1:
 
 with col2:
     # Experiencia profesional
-    st.header("Experiencia Profesional", className="header")
     st.markdown("""
-    <div class="content">
-    ### Pasante en Contabilidad y Administración
-    **[Wilson Abogados S.C] / Abril 2021 - Agosto 2022**  
-    - Apoyo en registro contable y administrativo de operaciones propias del despacho y de clientes externos.
-    - Apoyo en el desarrollo de modelos de análisis propios y para clientes.
-    - Contabilidad y Finanzas.
+    <h2 style='margin-bottom: 5px;'>Experiencia Profesional</h2>
+    <div style='margin-top: -20px;'>
+    <h3>Pasante en Contabilidad y Administración</h3>
+    <p><strong>[Wilson Abogados S.C]</strong> / Abril 2021 - Agosto 2022</p>
+    <ul>
+        <li>Apoyo en registro contable y administrativo de operaciones propias del despacho y de clientes externos.</li>
+        <li>Apoyo en el desarrollo de modelos de análisis propios y para clientes.</li>
+        <li>Contabilidad y Finanzas.</li>
+    </ul>
 
-    ### Presidente del Comité de Administración y Finanzas
-    **[Universidad Panamericana] / Enero - Diciembre 2023**  
-    - Coordinación de un equipo de 20 estudiantes para llevar a cabo actividades para más de 600 estudiantes.
-    - Organización de eventos, gestión de relaciones públicas y análisis de estados financieros para la toma de decisiones estratégicas.
+    <h3>Presidente del Comité de Administración y Finanzas</h3>
+    <p><strong>[Universidad Panamericana]</strong> / Enero - Diciembre 2023</p>
+    <ul>
+        <li>Coordinación de un equipo de 20 estudiantes para llevar a cabo actividades para más de 600 estudiantes.</li>
+        <li>Organización de eventos, gestión de relaciones públicas y análisis de estados financieros para la toma de decisiones estratégicas.</li>
+    </ul>
 
-    ### Área de Operaciones 
-    **[Inmobiliaria Magnum] / Enero 2020 - 2023**  
-    - Atención al cliente y captación de nuevos prospectos.
-    - Seguimiento y cierre de operaciones internas. 
-    - Análisis de información financiera y control administrativo para la toma de decisiones.
+    <h3>Área de Operaciones</h3>
+    <p><strong>[Inmobiliaria Magnum]</strong> / Enero 2020 - 2023</p>
+    <ul>
+        <li>Atención al cliente y captación de nuevos prospectos.</li>
+        <li>Seguimiento y cierre de operaciones internas.</li>
+        <li>Análisis de información financiera y control administrativo para la toma de decisiones.</li>
+    </ul>
     </div>
     """, unsafe_allow_html=True)
 
