@@ -72,7 +72,29 @@ with col1:
     </div>
     """, unsafe_allow_html=True)
 
-# Puedes continuar con la segunda columna o añadir más secciones según lo necesites
+with col2:
+    # Experiencia profesional
+    st.header("Experiencia Profesional", className="header")
+    st.markdown("""
+    <div class="content">
+    ### Pasante en Contabilidad y Administración
+    **[Wilson Abogados S.C] / Abril 2021 - Agosto 2022**  
+    - Apoyo en registro contable y administrativo de operaciones propias del despacho y de clientes externos.
+    - Apoyo en el desarrollo de modelos de análisis propios y para clientes.
+    - Contabilidad y Finanzas.
+
+    ### Presidente del Comité de Administración y Finanzas
+    **[Universidad Panamericana] / Enero - Diciembre 2023**  
+    - Coordinación de un equipo de 20 estudiantes para llevar a cabo actividades para más de 600 estudiantes.
+    - Organización de eventos, gestión de relaciones públicas y análisis de estados financieros para la toma de decisiones estratégicas.
+
+    ### Área de Operaciones 
+    **[Inmobiliaria Magnum] / Enero 2020 - 2023**  
+    - Atención al cliente y captación de nuevos prospectos.
+    - Seguimiento y cierre de operaciones internas. 
+    - Análisis de información financiera y control administrativo para la toma de decisiones.
+    </div>
+    """, unsafe_allow_html=True)
 
 
 
