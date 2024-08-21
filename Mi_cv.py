@@ -38,8 +38,8 @@ with col1:
      <h2 style='margin-bottom: 5px;'>Información Personal</h2>
     <div style='margin-top: -20px;'>
     <ul>
-        <li>Español - fernandabuckn@outlook.com</li>
-        <li>Inglés - 477 648 7258</li>
+        <li>fernandabuckn@outlook.com</li>
+        <li>477 648 7258</li>
     </ul>
     </div>
     """, unsafe_allow_html=True)
