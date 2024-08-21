@@ -63,12 +63,12 @@ with col2:
     - Apoyo en el desarrollo de modelos de análisis propios y para clientes.
     - Contabilidad y Finanzas.
 
-    ### Presidente del Comité de Administración y Finanzas
+    **PRESIDENTE DEL COMITÉ DE ADMON. Y FINANZAS**
     **[Universidad Panamericana] / Enero - Diciembre 2023**
     - Coordinación de un equipo de 20 estudiantes para llevar a cabo actividades para más de 600 estudiantes.
     - Organización de eventos, gestión de relaciones públicas y análisis de estados financieros para la toma de decisiones estratégicas.
 
-    ### Área de Operaciones 
+    **ÁREA DE OPERACIONES**
     **[Inmobiliaria Magnum] / Enero 2020 - 2023**
     - Atención al cliente y captación de nuevos prospectos.
     - Seguimiento y cierre de operaciones internas. 
