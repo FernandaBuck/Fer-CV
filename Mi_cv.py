@@ -3,6 +3,12 @@ import streamlit as st
 # Título del CV
 st.title("Fernanda Buck")
 
+ # Resumen profesional
+    st.header("Resumen Profesional")
+    st.markdown("""
+    Actualmente, me encuentro en el octavo semestre de la carrera de Administración y Finanzas en la Universidad Panamericana, campus Guadalajara. Soy una persona altamente organizada y proactiva, siempre comprometida a dar lo mejor de mí en todas mis actividades. Disfruto trabajar en equipo y considero que la colaboración es clave para alcanzar metas exitosas. Estoy en búsqueda de desafíos profesionales que me permitan crecer y superarme.
+    """)
+
 # Creando las columnas
 col1, col2 = st.columns(2)
 
@@ -50,12 +56,6 @@ with col1:
     """)
 
 with col2:
-    # Resumen profesional
-    st.header("Resumen Profesional")
-    st.markdown("""
-    Actualmente, me encuentro en el octavo semestre de la carrera de Administración y Finanzas en la Universidad Panamericana, campus Guadalajara. Soy una persona altamente organizada y proactiva, siempre comprometida a dar lo mejor de mí en todas mis actividades. Disfruto trabajar en equipo y considero que la colaboración es clave para alcanzar metas exitosas. Estoy en búsqueda de desafíos profesionales que me permitan crecer y superarme.
-    """)
-
     # Experiencia profesional
     st.header("Experiencia Profesional")
     st.markdown("""
