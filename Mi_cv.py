@@ -24,15 +24,15 @@ with col1:
     st.header("Educación")
     st.markdown("""
     **Licenciatura en Administración y Finanzas**
-    Universidad Panamericana, Zapopan, Jal.
+    Universidad Panamericana, Zapopan, Jal.  
     Agosto 2020 - Diciembre 2024
 
-    **Certificación SAP**
-    Universidad Panamericana, Zapopan, Jal.
+    **Certificación SAP**  
+    Universidad Panamericana, Zapopan, Jal.  
     Agosto 2023 - Diciembre 2023
 
-    **Certificate III in Business**
-    Lonsdale Institute, Melbourne, Aus. 
+    **Certificate III in Business**  
+    Lonsdale Institute, Melbourne, Aus.  
     Sep 2019 - Feb 2020
     """)
 
@@ -68,12 +68,13 @@ with col2:
     - Coordinación de un equipo de 20 estudiantes para llevar a cabo actividades para más de 600 estudiantes.
     - Organización de eventos, gestión de relaciones públicas y análisis de estados financieros para la toma de decisiones estratégicas.
 
-    **ÁREA DE OPERACIONES**
+    **ÁREA DE OPERACIONES**  
     **[Inmobiliaria Magnum] / Enero 2020 - 2023**
     - Atención al cliente y captación de nuevos prospectos.
     - Seguimiento y cierre de operaciones internas. 
     - Análisis de información financiera y control administrativo para la toma de decisiones.
     """)
+    
 
     
 
