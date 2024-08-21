@@ -23,8 +23,8 @@ st.title("Fernanda Buck")
 
 # Resumen profesional
 st.markdown("""
-<h2 class='header'>Resumen Profesional</h2>
-<p class='content'>
+<h2 style='margin-bottom: 5px;'>Resumen Profesional</h2>
+<p style='margin-top: -20px;'>
 Actualmente, me encuentro en el octavo semestre de la carrera de Administración y Finanzas en la Universidad Panamericana, campus Guadalajara. Soy una persona altamente organizada y proactiva, siempre comprometida a dar lo mejor de mí en todas mis actividades. Disfruto trabajar en equipo y considero que la colaboración es clave para alcanzar metas exitosas. Estoy en búsqueda de desafíos profesionales que me permitan crecer y superarme.
 </p>
 """, unsafe_allow_html=True)
@@ -35,8 +35,8 @@ col1, col2 = st.columns(2)
 with col1:
     # Información personal
     st.markdown("""
-    <h2 class='header'>Información Personal</h2>
-    <div class='content'>
+    <h2 style='margin-bottom: 5px;'>Información Personal</h2>
+    <div style='margin-top: -20px;'>
     <p><strong>Nombre:</strong> María Fernanda Buck Nuñez</p>
     <p><strong>Correo Electrónico:</strong> fernandabuckn@outlook.com</p>
     <p><strong>Teléfono:</strong> 477 648 7258</p>
@@ -45,8 +45,8 @@ with col1:
 
     # Educación
     st.markdown("""
-    <h2 class='header'>Educación</h2>
-    <div class='content'>
+    <h2 style='margin-bottom: 5px;'>Educación</h2>
+    <div style='margin-top: -20px;'>
     <p><strong>Licenciatura en Administración y Finanzas</strong><br/>
     Universidad Panamericana, Zapopan, Jal.<br/>
     Agosto 2020 - Diciembre 2024</p>
@@ -63,14 +63,17 @@ with col1:
 
     # Idiomas
     st.markdown("""
-    <h2 class='header'>Idiomas</h2>
-    <div class='content'>
+    <h2 style='margin-bottom: 5px;'>Idiomas</h2>
+    <div style='margin-top: -20px;'>
     <ul>
         <li>Español - Nativo</li>
         <li>Inglés - Avanzado</li>
     </ul>
     </div>
     """, unsafe_allow_html=True)
+
+# Puedes continuar con la segunda columna o añadir más secciones según lo necesites
+
 
 
 
