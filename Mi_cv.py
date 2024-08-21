@@ -72,20 +72,6 @@ with col1:
     </div>
     """, unsafe_allow_html=True)
 
-     # Habilidades
-    st.markdown("""
-    <h2 style='margin-bottom: 5px;'>Habilidades</h2>
-    <div style='margin-top: -20px;'>
-    <ul>
-        <li>Toma de desiciones</li>
-        <li>Trabajo en equipo</li>
-        <li>Solucion de problemas</li>
-        <li>Liderazgo</li>
-        <li>Exce<li>
-    </ul>
-    </div>
-    """, unsafe_allow_html=True)
-
 with col2:
     # Experiencia profesional
     st.markdown("""
