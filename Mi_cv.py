@@ -15,6 +15,7 @@ with col1:
     - **Teléfono:** 477 648 7258
     """)
 
+
     # Educación
     st.header("Educación")
     st.markdown("""
@@ -36,6 +37,16 @@ with col1:
     st.markdown("""
     - Español - Nativo
     - Inglés - Avanzado
+    """)
+
+    # Habilidades
+    st.header("Habilidades")
+    st.markdown("""
+    - Toma de Decisiones
+    - Trabajo en Equipo 
+    - Solución de Problemas 
+    - Liderazgo
+    - Excel 
     """)
 
 with col2:
@@ -66,12 +77,4 @@ with col2:
     - Análisis de información financiera y control administrativo para la toma de decisiones.
     """)
 
-    # Habilidades
-    st.header("Habilidades")
-    st.markdown("""
-    - Toma de Decisiones
-    - Trabajo en Equipo 
-    - Solución de Problemas 
-    - Liderazgo
-    - Excel 
-    """)
+
