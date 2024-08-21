@@ -37,9 +37,9 @@ with col1:
     st.markdown("""
     <h2 style='margin-bottom: 5px;'>Información Personal</h2>
     <div style='margin-top: -20px;'>
-    <p><strong>Nombre:</strong> María Fernanda Buck Nuñez</p>
-    <p><strong>Correo Electrónico:</strong> fernandabuckn@outlook.com</p>
-    <p><strong>Teléfono:</strong> 477 648 7258</p>
+        <p><strong>María Fernanda Buck Nuñez</p>
+        <p><strong>fernandabuckn@outlook.com</p>
+        <p><strong>477 648 7258</p>
     </div>
     """, unsafe_allow_html=True)
 
