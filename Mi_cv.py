@@ -57,7 +57,7 @@ with col2:
     # Experiencia profesional
     st.header("Experiencia Profesional")
     st.markdown("""
-    # Pasante en Contabilidad y Administración
+    **PASANTE EN CONTABILIDAD Y ADMINITRACIÓN**
     **[Wilson Abogados S.C] / Abril 2021 - Agosto 2022**
     - Apoyo en registro contable y administrativo de operaciones propias del despacho y de clientes externos.
     - Apoyo en el desarrollo de modelos de análisis propios y para clientes.
