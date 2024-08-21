@@ -19,7 +19,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Título del CV
-st.title("Fernanda Buck")
+st.title("María Fernanda Buck Nuñez")
 
 # Resumen profesional
 st.markdown("""
@@ -35,11 +35,12 @@ col1, col2 = st.columns(2)
 with col1:
     # Información personal
     st.markdown("""
-    <h2 style='margin-bottom: 5px;'>Información Personal</h2>
+     <h2 style='margin-bottom: 5px;'>Información Personal</h2>
     <div style='margin-top: -20px;'>
-        <p><strong>María Fernanda Buck Nuñez</p>
-        <p><strong>fernandabuckn@outlook.com</p>
-        <p><strong>477 648 7258</p>
+    <ul>
+        <li>Español - fernandabuckn@outlook.com</li>
+        <li>Inglés - 477 648 7258</li>
+    </ul>
     </div>
     """, unsafe_allow_html=True)
 
