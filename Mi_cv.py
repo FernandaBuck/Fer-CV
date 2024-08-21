@@ -4,10 +4,10 @@ import streamlit as st
 st.title("María Fernanda Buck Nuñez")
 
 # Resumen profesional
-    st.header("Resumen Profesional")
-    st.markdown("""
-    Actualmente, me encuentro en el octavo semestre de la carrera de Administración y Finanzas en la Universidad Panamericana, campus Guadalajara. Soy una persona altamente organizada y proactiva, siempre comprometida a dar lo mejor de mí en todas mis actividades. Disfruto trabajar en equipo y considero que la colaboración es clave para alcanzar metas exitosas. Estoy en búsqueda de desafíos profesionales que me permitan crecer y superarme.
-    """)
+st.header("Resumen Profesional")
+st.markdown("""
+Actualmente, me encuentro en el octavo semestre de la carrera de Administración y Finanzas en la Universidad Panamericana, campus Guadalajara. Soy una persona altamente organizada y proactiva, siempre comprometida a dar lo mejor de mí en todas mis actividades. Disfruto trabajar en equipo y considero que la colaboración es clave para alcanzar metas exitosas. Estoy en búsqueda de desafíos profesionales que me permitan crecer y superarme.
+""")
 
 # Creando las columnas
 col1, col2 = st.columns(2)
@@ -50,7 +50,7 @@ with col2:
     ### Pasante en Contabilidad y Administración
     **[Wilson Abogados S.C] / Abril 2021 - Agosto 2022**
     - Apoyo en registro contable y administrativo de operaciones propias del despacho y de clientes externos.
-    - Apoyo en el desarrollo de modelos de análisis propios y para clientes.
+    - Apoyo en el desarrollo de modelos de análisis propios y para clientes.
     - Contabilidad y Finanzas.
 
     ### Presidente del Comité de Administración y Finanzas
@@ -60,7 +60,7 @@ with col2:
 
     ### Área de Operaciones 
     **[Inmobiliaria Magnum] / Enero 2020 - 2023**
-    - Atención al cliente y captación de nuevos prospectos.
+    - Atención al cliente y captación de nuevos prospectos.
     - Seguimiento y cierre de operaciones internas. 
     - Análisis de información financiera y control administrativo para la toma de decisiones.
     """)
@@ -74,6 +74,7 @@ with col2:
     - Liderazgo
     - Excel 
     """)
+
 
 
 
