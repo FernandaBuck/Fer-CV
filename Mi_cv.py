@@ -43,3 +43,4 @@ with col2:
     st.header("Resumen Profesional")
     st.markdown("""
     Actualmente, me encuentro en el octavo semestre de la carrera de Administración y Finanzas en la Universidad Panamericana, campus
+ """)
