@@ -1,7 +1,13 @@
 import streamlit as st
 
-# Título del CV
-st.title("María Fernanda Buck Nuñez")
+# Título del CV y la foto en la parte superior izquierda
+col1, col2 = st.columns([1, 3])
+
+with col1:
+    st.image("~/Desktop/Fernanda.png", width=150)  # Cambia el nombre de la imagen y la ruta según corresponda
+
+with col2:
+    st.title("María Fernanda Buck Nuñez")
 
 # Resumen profesional
 st.header("Resumen Profesional")
@@ -43,7 +49,7 @@ with col1:
     - Inglés - Avanzado
     """)
 
-     # Habilidades
+    # Habilidades
     st.header("Habilidades")
     st.markdown("""
     - Toma de Decisiones
